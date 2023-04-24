@@ -13,6 +13,11 @@ MindsDB provides an OpenAI engine by default. But if you want to use your own Op
 
 ```sql
 CREATE ML_ENGINE openai2
+<Tip>
+**MindsDB Pro**
+
+Please note that it is required to provide an OpenAI API key when using MindsDB Pro version.
+</Tip>
 FROM openai
 USING
   api_key = 'YOUR_OPENAI_API_KEY';
